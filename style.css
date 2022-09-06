@@ -21,7 +21,6 @@ body {
 
 .header {
     text-align: center;
-    
 }
 
 .nav {
@@ -84,7 +83,6 @@ body {
 .footer ul {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .footer ul li {
