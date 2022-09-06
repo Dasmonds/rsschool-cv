@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.container {
+        min-height: 100vh;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 15px;
+}
+
+.main {
+    background: linear-gradient(blue, pink);
+    border-radius: 50px;
+    padding-bottom: 20px;
+}
+
+.person {
+    text-align: center;
+    padding: 20px;
+}
+
+.person h1 {
+    padding-top: 20px;
+}
+
+.main div {
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+}
+
+.main h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto 0;
+    padding: 15px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    color: white;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    background: linear-gradient(red, pink);
+}
+
+.main div:hover {
+    background-color: aqua;
+}
